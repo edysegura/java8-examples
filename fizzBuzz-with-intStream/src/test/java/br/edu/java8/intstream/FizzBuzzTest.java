@@ -7,9 +7,9 @@ import org.junit.Test;
 public class FizzBuzzTest {
 
 	@Test
-	public void should_return_empty_string_if_there_is_no_divisor() {
-		assertEquals("", FizzBuzz.getWord(1));
-		assertEquals("", FizzBuzz.getWord(6));
+	public void should_return_the_same_provided_number_as_a_string_if_it_is_not_multiple_of_5_or_7() {
+		assertEquals("1", FizzBuzz.getWord(1));
+		assertEquals("6", FizzBuzz.getWord(6));
 	}
 	
 	@Test
